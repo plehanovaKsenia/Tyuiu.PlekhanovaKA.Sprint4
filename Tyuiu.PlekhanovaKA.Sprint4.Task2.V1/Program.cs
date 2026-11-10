@@ -29,7 +29,7 @@ namespace Tyuiu.PlekhanovaKA.Sprint4.Task2.V1
             Console.WriteLine("Введите количество элементов массива");
             len = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[len];
-            for (int i = 0; i <= len; i++)
+            for (int i = 0; i < len; i++)
             {
                 array[i] = rnd.Next(1,9);
             }
