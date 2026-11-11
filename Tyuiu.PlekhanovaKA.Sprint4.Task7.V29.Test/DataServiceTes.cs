@@ -8,10 +8,10 @@ namespace Tyuiu.PlekhanovaKA.Sprint4.Task7.V29.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            int n = 2;
-            int m = 2;
-            string value = "1234";
-            int wait = 6;
+            int n = 4;
+            int m = 3;
+            string value = "983157642891";
+            int wait = 28;
             int res = ds.Calculate(n,m, value);
             Assert.AreEqual(wait, res);
         }

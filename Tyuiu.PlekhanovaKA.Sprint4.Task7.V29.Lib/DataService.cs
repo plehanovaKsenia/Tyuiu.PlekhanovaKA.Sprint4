@@ -11,14 +11,13 @@ namespace Tyuiu.PlekhanovaKA.Sprint4.Task7.V29.Lib
             {
                 for(int j=0;j<m;j++)
                 {
-                    matrix[i, j] = int.Parse(value[i * 2 + j].ToString());
+                    matrix[i, j] = int.Parse(value[i * m + j].ToString());
                     if (matrix[i,j]%2==0)
                     {
                         sum += matrix[i, j];
                     }
                 }
             }
-            
             return sum;
         }
     }
