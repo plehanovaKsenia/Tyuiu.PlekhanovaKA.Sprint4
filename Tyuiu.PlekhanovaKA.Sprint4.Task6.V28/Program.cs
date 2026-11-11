@@ -12,7 +12,7 @@ namespace Tyuiu.PlekhanovaKA.Sprint4.Task6.V28
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Двумерные массивы (генератор случайных чисел)                     *");
+            Console.WriteLine("* Тема: Класс Array                                                       *");
             Console.WriteLine("* Задание#6                                                               *");
             Console.WriteLine("* Вариант#28                                                              *");
             Console.WriteLine("* Выполнила: Плеханова Ксения Анатольевна | СМАРТб-26-1                   *");
